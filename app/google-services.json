@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "287570886146",
+    "project_id": "gradeviewer-a2e87",
+    "storage_bucket": "gradeviewer-a2e87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287570886146:android:180a4ba8245c657530f11b",
+        "android_client_info": {
+          "package_name": "com.example.gradeviewer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287570886146-cpb7qtohbvvj1vtdns3uvfsd74nsio1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYWcw-SwrBeRH18J2UJ8spw3S0X4tE2pM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287570886146-cpb7qtohbvvj1vtdns3uvfsd74nsio1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

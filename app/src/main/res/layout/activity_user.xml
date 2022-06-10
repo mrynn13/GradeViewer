@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81d4fa"
+    android:gravity="center"
+    tools:context=".User">
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/teacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@null"
+            android:background="#2963ff"
+            android:onClick="Teach"
+            android:text="I Am Teacher"/>
+        <Button
+            android:onClick="Student"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="#41a5f5"
+            app:backgroundTint="@null"
+            android:text="I Am Student"/>
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:background="@drawable/custom_et_bg"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:hint="ID NUMBER"
+                android:inputType="number"
+                android:id="@+id/idnum"/>
+
+            <Button
+                android:onClick="ViewGrades"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:background="#00e676"
+                app:backgroundTint="@null"
+                android:textSize="13sp"
+                android:text="View Available Grades"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
